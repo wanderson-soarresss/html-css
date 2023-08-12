@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to right,#1379C1,#6da5c0);
+}
+nav{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
