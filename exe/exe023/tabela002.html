@@ -16,10 +16,25 @@
             border: 2px solid black;
             padding: 10px;
         }
+        
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
 
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
         }
         td.num{
             text-align: right;
@@ -29,11 +44,12 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
          <tr>
 
               <th>Estado</th>
-              <th>População</th>
+              <th style="width: 50px ;">População</th>
         </tr> 
     </thead>
     <tbody>
