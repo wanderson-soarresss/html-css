@@ -15,11 +15,31 @@ Grandes telas: acima de 1200px
     
 }
 
-@media screen and (max-width: 600px){
-    
+
+@media screen and (min-width:768px) and (max-width:1024px){/*TABLET*/
+    body{
+        background-image:url(../imagens/back-tablet.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: block;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display: none;}   
 }
 
-@media screen and (min-width:600px) and (max-width:768){
+@media screen and (min-width:1080px) and (max-width:1920px){/*DESKTOP*/
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: none;}
+    img#pc{display: block;}
+    img#tv{display: none;}  
+
+}
+
+@media screen and (min-width:1200px) {/*GRANDES TELAS*/
     
 }
 
