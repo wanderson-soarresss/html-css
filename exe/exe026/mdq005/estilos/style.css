@@ -26,6 +26,7 @@ span#burger{
     display: block;
     text-align: center;
     padding: 10px;
+    cursor: pointer;
 }
 
 span#burger:hover{
@@ -34,7 +35,7 @@ span#burger:hover{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul{
